@@ -25,11 +25,12 @@ function c(key: string): string {
 }
 
 const TIER_COLORS: Record<string, string> = {
-  platinum: '#00b4d8',
-  gold: '#FFD700',
-  silver: '#C0C0C0',
-  bronze: '#CD7F32',
-  borked: '#e74c3c'
+  platinum: '#b4c7dc',
+  gold: '#cfb53b',
+  silver: '#a6a6a6',
+  bronze: '#cd7f32',
+  borked: '#ff0000',
+  pending: '#a6a6a6'
 };
 
 function tierLabel(tier: string): string {
