@@ -25,6 +25,7 @@ function c(key: string): string {
 }
 
 const TIER_COLORS: Record<string, string> = {
+  native: '#008000',
   platinum: '#b4c7dc',
   gold: '#cfb53b',
   silver: '#a6a6a6',
